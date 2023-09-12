@@ -1,0 +1,33 @@
+/* Center the form and give it some padding */
+#form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Apply styles to all input fields */
+.input-field {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  margin: 5px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Style specific fields with different widths */
+.specific-input-field {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  margin: 5px 0;
+  width: 33%;
+  box-sizing: border-box;
+}
+
+/* Center the submit button */
+.submit-button {
+  margin-top: 10px;
+  align-self: center;
+}
